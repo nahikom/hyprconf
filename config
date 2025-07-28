@@ -11,46 +11,46 @@
   "$HOME/.config/waybar/UserModules",
   ],
   
-	"layer": "top",
-	"position": "top",
+"layer": "top",
+"position": "top",
 
-	"modules-left": [
-    "custom/arch",
-    "custom/separator#dot-line",
-   	"hyprland/workspaces#pacman",
-    "custom/separator#dot-line",
-    "clock#5"
-	],
+"modules-left": [
+  "custom/arch",
+  "custom/separator#dot-line",
+  "hyprland/workspaces#pacman",
+  "custom/separator#dot-line",
+  "clock#5"
+],
 
 "modules-center": [
   "hyprland/window",
- 	],
+],
 
 
 "modules-right": [
   "hyprland/language",
   "custom/separator#dot-line",  
-	"tray",
-	"custom/separator#dot-line",
-	"group/laptop",
-	"custom/separator#dot-line",
-	"group/mobo_drawer",
-	"custom/separator#dot-line",  
-	"group/audio",
-	"custom/separator#line", 
-	"group/status",
-	],
+  "tray",
+  "custom/separator#dot-line",
+  "group/laptop",
+  "custom/separator#dot-line",
+  "group/mobo_drawer",
+  "custom/separator#dot-line",  
+  "group/audio",
+  "custom/separator#line", 
+  "group/status",
+],
 
-  "hyprland/language": {
-    "format": "{}",
-    "format-en": " en ",
-    "format-ru": " ru "
-  },
+"hyprland/language": {
+  "format": "{}",
+  "format-en": " en ",
+  "format-ru": " ru "
+},
 
-  "custom/arch": {
-    "format": "  󰣇  ",
-    "on-click": "wofi --show drun",
-    "tooltip": true,
-    "tooltip-format": "btw"
+"custom/arch": {
+  "format": "  󰣇  ",
+  "on-click": "wofi --show drun",
+  "tooltip": true,
+  "tooltip-format": "btw"
   }
 }
